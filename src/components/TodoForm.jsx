@@ -40,14 +40,21 @@ const styles = {
     marginBottom: "32px",
   },
   formInput: {
+    borderRight: 0,
+    borderRadius: "15px 0 0 15px",
     height: "66px",
     width: "40%",
     fontSize: "16px",
     padding: "0 16px",
   },
   button: {
-    height: "72px",
+    border: 0,
+    borderRadius: "0 15px 15px 0",
+    backgroundColor: "#6B00DD",
+    height: "66px",
+    color: "#fff",
     fontSize: "16px",
+    cursor: "pointer",
   },
 };
 

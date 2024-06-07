@@ -26,6 +26,11 @@ const styles = {
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '0 20px',
+    margin: '20px 0px',
+    backgroundColor: '#6ad400',
+    borderRadius: '20px',
+    boxShadow: '0 0 15px #3CD400',
+    border: '1px solid #3CD400',
   },
   checkbox: {
     height: '18px',

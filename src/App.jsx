@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import Todos from './components/Todos'
-import TodoForm from './components/TodoForm'
+import React, { useState } from 'react';
+import Todos from './components/Todos';
+import TodoForm from './components/TodoForm';
+import Swal from 'sweetalert2';
 
 function App() {
   const [todos, setTodos] = useState([
@@ -71,9 +72,11 @@ const styles = {
   container: {
     textAlign: 'center',
     padding: '12px',
+    height: '100vh',
   },
   title: {
     fontSize: '36px',
+    color: 'white',
   },
 }
 
